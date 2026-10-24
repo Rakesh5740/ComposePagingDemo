@@ -30,7 +30,6 @@ import androidx.paging.compose.collectAsLazyPagingItems
 
 @Composable
 fun ProductScreen(
-//    paddingValues: PaddingValues,
     viewModel: ProductViewModel = viewModel()
 ) {
     val products = viewModel.products.collectAsLazyPagingItems()
