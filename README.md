@@ -3,6 +3,7 @@ A modern Android application demonstrating server-side pagination using Jetpack 
 
 Features
 ✅ Jetpack Compose UI
+<img width="1080" height="2400" alt="Screenshot_20261024_192718" src="https://github.com/user-attachments/assets/bbac3815-61b0-4896-b568-36e67892972a" />
 
 ✅ Paging 3 Integration
 
