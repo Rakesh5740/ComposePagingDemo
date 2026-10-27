@@ -11,10 +11,6 @@ class ProductViewModel : ViewModel() {
         RetrofitInstance.api
     )
 
-    init {
-        Log.d("VM", "ViewModel Created")
-    }
-
     val products =
         repository.getProducts()
             .cachedIn(viewModelScope)
